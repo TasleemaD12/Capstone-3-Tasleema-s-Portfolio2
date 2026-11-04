@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tasleema's Web Developer Portfolio-2026</title>
+		<!--bootstrap links-->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			body {
+				background-color: rgb(0, 0, 33);
+				color: white;
+				font-family: "Poppins", sans-serif;
+				font-weight: 600;
+			}
+			nav {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				height: 80px;
+				background-color: rgb(18, 18, 62);
+			}
+			nav ul {
+				display: flex;
+				justify-content: center;
+			}
+			nav ul li {
+				list-style: none;
+				margin: 0 23px;
+			}
+			nav ul li a {
+				text-decoration: none;
+				color: white;
+			}
+			nav ul li a:hover {
+				color: rgb(139, 139, 192);
+				font-size: 1.04rem;
+			}
+			.left {
+				font-size: 1.5rem;
+			}
+
+			.firstSection {
+				display: flex;
+				justify-content: space-around;
+				align-items: center;
+				margin: 90px 0;
+			}
+			.firstSection > div {
+				width: 40%;
+			}
+
+			.leftSection {
+				font-size: 3rem;
+			}
+
+			.rightSection img {
+				width: 70%;
+			}
+			.purple {
+				color: blueviolet;
+			}
+			#element {
+				color: blueviolet;
+			}
+
+			main hr {
+				border: 0;
+				background: #9c97f1;
+				height: 1.2px;
+				margin: 60px 84px;
+			}
+
+			.secondSection {
+				max-width: 165vh;
+				margin: auto;
+				font-family: "Poppins", sans-serif;
+				height: 80vh;
+			}
+			.secondSection h1 {
+				font-size: 1.9rem;
+			}
+			.text-gray {
+				color: gray;
+			}
+
+			.secondSection .box {
+				background: white;
+				width: 135vh;
+				height: 2px;
+				margin: 56px 0;
+				display: flex;
+			}
+			.secondSection .vertical {
+				height: 93px;
+				width: 1px;
+				background-color: white;
+				margin: 0 160px;
+			}
+			.image-top {
+				width: 32px;
+				position: relative;
+				top: -32px;
+				left: -9px;
+			}
+
+			.vertical-title {
+				position: relative;
+				top: 75px;
+				width: 150px;
+			}
+			.vertical-desc {
+				position: relative;
+				top: 86px;
+				width: 150px;
+				font-size: 9px;
+				color: gray;
+			}
+			.img-container {
+				display: flex;
+				flex-direction: row;
+			}
+			footer {
+				background-color: rgb(61, 61, 80);
+				height: 233px;
+			}
+
+			.footer {
+				display: flex;
+				justify-content:;
+			}
+		</style>
+	</head>
+	<body>
+		<!--Header section-->
+		<header>
+			<nav>	
+				<div class="left"> 
+					<div class="profile-icon"><i class="bi bi-person-bounding-box"></i></div>
+					Tasleema's Portfolio</div>
+				<div class="right">
+					<ul>
+						<li><a href="/">Home </a></li>
+						<li><a href="/">About</a></li>
+						<li><a href="/">Projects</a></li>
+						<li><a href="/">Certificates </a></li>
+						<li><a href="/">Contact me </a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+
+		<!--Main section-->
+		<main>
+			<section class="firstSection">
+				<div class="leftSection">
+					Hi My Name is <span class="purple">Tasleema</span>
+					<div>and I am a passionate</div>
+					<!--	<div>Web Developer</div> -->
+
+					<!-- Element to contain animated typing -->
+					<span id="element"></span>
+				</div>
+				<div class="rightSection">
+					<img src="images/fem-dev.png" alt="female-dev image" />
+				</div>
+			</section>
+
+			<hr />
+
+			<section class="secondSection">
+				<span class="text-gray">What I have Done so far</span>
+				<h1>Work Experience</h1>
+				<div class="box">
+					<div class="vertical">
+						<img
+							class="image-top"
+							src="images/htmlcssjs.png"
+							alt="html css js png"
+						/>
+						<div class="vertical-title">
+							Assistant Web Developer
+							<div style="color: rgb(238, 219, 219); font-size: small">
+								(nov-2022 to apr-2023)
+							</div>
+						</div>
+						<div class="vertical-desc">
+							Web Development, Innoovatum (Bijapur): Professional training with
+							hands-on project experience and student mentoring. Completed a
+							professional web development program with hands-on project
+							experience, Built practical web projects, applying what I learned
+							in training, Mentored fellow students, helping them understand
+							concepts and resolve problems, Strengthened my communication and
+							teamwork skills alongside my technical skills.
+						</div>
+					</div>
+					<div class="vertical">
+						<div class="img-container">
+							<img src="images/java-png.png" alt="java png" class="image-top" />
+							<img src="images/sql1.png" alt="sql1 png" class="image-top" />
+						</div>
+						<div class="vertical-title">
+							Java Developer
+							<div style="color: rgb(238, 219, 219); font-size: small">
+								(sept-2023 to oct-2024)
+							</div>
+						</div>
+						<div class="vertical-desc">
+							Java Full Stack Development, JSpiders: In-depth training in Core
+							Java, Advanced Java, and Spring Boot, including building REST APIs
+							and applying MVC architecture. Studied Core Java, including
+							object-oriented programming fundamentals. Learned Advanced Java
+							for building database-connected, server-side applications, Built
+							REST APIs using Spring Boot, Applied the MVC design pattern to
+							structure applications cleanly, Worked with SQL databases and
+							connected back-end services to front-end interfaces.
+						</div>
+					</div>
+					<div class="vertical">
+						<div class="img-container">
+							<img
+								src="images/htmlcssjs.png"
+								alt="html css js png"
+								class="image-top"
+							/>
+							<img
+								class="image-top"
+								src="images/web2 png.png"
+								alt="web-2png image"
+							/>
+							<img class="image-top" src="images/sql.png" alt="sql-png" />
+						</div>
+
+						<div class="vertical-title">
+							Junior Web Developer
+							<div style="color: rgb(238, 219, 219); font-size: small">
+								(apr-2026 to july-2026)
+							</div>
+						</div>
+						<div class="vertical-desc">
+							Full stack intern at Infiinofy, where I built and deployed web
+							applications using JavaScript, Node.js, Express.js, and
+							PostgreSQL. I contributed to code reviews, wrote and optimized
+							database queries, and helped debug and test across the stack in a
+							remote team. I can also tailor it to a specific job posting, or
+							write a version for an interview answer like “tell me about your
+							internship. Developed and integrated RESTful APIs using Node.js
+							and Express.js, handling HTTP methods (GET, POST, PUT, DELETE) for
+							CRUD operations”
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<hr />
+		</main>
+
+		<footer>
+			<div class="footer">
+				<div class="footer-first">Tasleema's developer portfolio</div>
+				<div class="footer-second">
+					<ul></ul>
+				</div>
+				<div class="footer-third"></div>
+				<div class="footer-fourth"></div>
+			</div>
+		</footer>
+		<!-- typed js is the javascript typing animation library  copied cdn  from link -9px> "https://github.com/mattboldt/typed.js/" -->
+		<script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
+		<!-- Setup and start animation! -->
+		<script>
+			var typed = new Typed("#element", {
+				strings: ["Web Developer.", "Java Developer.", "Software Engineer."],
+				typeSpeed: 50,
+			});
+		</script>
+		<script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL" crossorigin="anonymous"></script>
+	</body>
+</html>
